@@ -1,12 +1,41 @@
 body {
   font-family: Arial, sans-serif; /* Sets a clean, simple font */
-  background-color: #333; /* Grey background */
+  background-color: #333; /* Dark grey background */
   text-align: center; /* Centers text by default */
   margin: 0;
   padding: 7px;
-  h1 {
-  color: ##e0dada; /* Dark white for the heading */
+}
+
+h1 {
+  color: #e0dada; /* Light color for the heading */
   font-size: 2.5em; /* Make the heading larger */
 }
 
+nav {
+  width: 200px; /* Width of the navigation bar */
+  background-color: #333; /* Dark background for the nav */
+  height: 100vh; /* Full height of the viewport */
+  position: fixed; /* Fixes the nav on the left */
+  padding: 10px; /* Space inside the nav bar */
+}
+
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+nav ul li {
+  margin-bottom: 15px; /* Adds space between items vertically */
+}
+
+nav ul li a {
+  color: white; /* White text color for links */
+  text-decoration: none; /* Removes underline from links */
+  padding: 10px; /* Adds padding around the link */
+  display: block; /* Makes the link fill the space of the li */
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Darker background on hover */
 }
